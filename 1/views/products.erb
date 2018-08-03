@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>El título de la página</title>
+  </head>
+  <body>
+    <% @products.each_with_index do |product,index| %>
+        <h1>Animal <%=index+1%>: <%=product%> </h1>
+    <%end%>
+  </body>
+</html> 
